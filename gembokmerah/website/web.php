@@ -3,7 +3,7 @@
     <head>
     </head>
     <body>
-        <h2>Redlock Database </h2>
+        <h2>Redlock Database</h2>
         <table>
             <tr>
                 <th>ID</th>
@@ -28,10 +28,6 @@
             //query to select data from table
             $sql="SELECT * FROM users";
             $result=mysqli_query($con, $sql);
-            $total_rows=mysqli_num_rows($result);
-            ?>
-            <h3> Total User = <?php echo $total_rows;?></h2>
-            <?php
 
             //print the data
             while($row=mysqli_fetch_assoc($result)){?>
