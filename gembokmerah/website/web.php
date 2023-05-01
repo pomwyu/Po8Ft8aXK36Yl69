@@ -3,7 +3,7 @@
     <head>
     </head>
     <body>
-        <h2>Redlock Database</h2>
+        <h2>Redlock Databasehehe</h2>
         <table>
             <tr>
                 <th>ID</th>
